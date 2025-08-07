@@ -14,13 +14,13 @@ int binarySearch(std::vector<int> arr, int target, int startingIndex) {
 }
 
 int main(){
-    std::vector<int> arr = {2,7,11,15,27};
+    std::vector<int> arr = {3,2,4};
     int n = arr.size();
     int target = 22;
 
     // Method 1: Using brute-force
 /*
-    for (int i = 0; i < n-1; ++i) {
+    for (int i = 0; i < n-1; ++i) {ls
         for (int j = i+1; j < n; ++j) {
             if (arr[i] + arr[j] == target) {
                 std::cout << arr[i] << " " << arr[j] << std::endl;

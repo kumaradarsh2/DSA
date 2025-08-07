@@ -51,7 +51,7 @@ while (left < right) {
     // Mistake I made:
     
         // I mistook arr[left] for left, but left is pointer which points to index.
-        // So, to compare the values, or do anything with array element at that index, we do arr[left]
+        // So, to compare the values or do anything with array element at that index, we do arr[left]
         // and NOT just "left"
     
 
