@@ -1,3 +1,5 @@
+// Important concept to remember to get correct inserted position of element in array
+
 #include <iostream>
 #include <vector>
 

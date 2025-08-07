@@ -25,6 +25,23 @@ int findOccurrence(std::vector<int> arr, int target, char occ) {
 }
 
 int main() {
+
+// Bruteforce approach
+/*  
+    int firstOcc = -1, lastOcc = -1;
+    int target = 10;
+
+    for (int i = 0; i < n; ++i) {
+        if (arr[i] == target) {
+          if (firstOcc == -1 ) 
+            firstOcc = i, lastOcc = i;
+          else lastOcc = i;
+        }
+    }
+    cout << firstOcc << " " << lastOcc << endl;
+*/
+
+    // Binary Search Method
     std::vector<int> vec = {5,7,7,8,8,10};
     int search = 7;
 
