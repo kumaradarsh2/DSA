@@ -40,7 +40,7 @@ int main() {
     if (st.count(10)) cout << "yes";
     else cout << "no";
     cout << endl;
-    // we can also use .cout() method which returns 0 or 1 based on whether element is present in set 
+    // we can also use .count() method which returns 0 or 1 based on whether element is present in set 
 
     // delete
     st.erase(40);
@@ -86,9 +86,9 @@ int main() {
     ms.insert(20);
     ms.insert(10);
 
-    ms.erase(30); // all 30s are removed
+    // ms.erase(30); // all 30s are removed
 
-    for (auto val : s) cout << val << " ";
+    for (auto val : ms) cout << val << " ";
     cout << endl;
 
     return 0;
